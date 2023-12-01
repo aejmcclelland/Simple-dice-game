@@ -5,8 +5,8 @@ export default function Die({ numSides }) {
     };
 
     const [die1, die2] = [roll(), roll()];
-
     const total = die1 + die2;
+
     const styles = { color: die1 !== die2 ? 'green' : 'red' };
 
     return (
