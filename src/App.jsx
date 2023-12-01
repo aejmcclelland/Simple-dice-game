@@ -1,6 +1,6 @@
 import Die from './Die';
 import "./App.css"
-import './Hello.css';
+//import './Hello.css';
 // import HappyChristmas from './Happy';
 
 function App() {
