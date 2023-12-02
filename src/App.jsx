@@ -1,22 +1,13 @@
 import Die from './Die';
 import "./App.css"
-//import './Hello.css';
-// import HappyChristmas from './Happy';
+import Heading from './Heading';
 
 function App() {
-  //const family = ['Andrew', 'Julie', 'Rebekah', 'Sarah'];
+
   return (
-    // <div className="Hello">
-    //   {family.map((name, index) => (
-    //     <div key={index}>
-    //       Hello, {name}
-    //     </div>
-    //   ))}
-    //   <HappyChristmas person="Andrew" />
-    //   <HappyChristmas person="Julie" />
-    //   <HappyChristmas person="Rebekah and Sarah" />
-    // </div>
-    <div className="Hello">
+
+    <div >
+      <Heading color="orange" text="Snake Eyes" />
       <Die numSides={6} />
     </div>
   );
