@@ -13,7 +13,7 @@ This repository contains the source files for a dice game. The game allows playe
 
 To run the game locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/aejmcclelland/dice-game.git`
+1. Clone the repository: `git clone https://github.com/aejmcclelland/Simple-dice-game.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 git remote set-url origin <Simple-dice-game>
