@@ -1,3 +1,3 @@
-export default function Heading({ color = 'orange', text }) {
-    return <h1 style={{ color: color }}>{text}</h1>;
+export default function Heading({ color = 'orange', text, fontSize }) {
+    return <h1 style={{ color: color, fontSize: fontSize }}>{text}</h1>;
 }
