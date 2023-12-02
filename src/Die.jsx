@@ -24,7 +24,6 @@ export default function Die({ numSides }) {
         if (newDie1 === newDie2) {
             setGameOver(true);
             setTotal(0);
-            updateHighestScore(newTotal);
         }
     };
 
@@ -42,13 +41,9 @@ export default function Die({ numSides }) {
         alert(message);
         setGameOver(false);
         setTotal(0);
-        updateHighestScore(total);
-    };
-
-    const updateHighestScore = (score) => {
-        if (score > highestScore) {
-            setHighestScore(score);
-            localStorage.setItem('highestScore', score);
+        if (total > highestScore) {
+            setHighestScore(total);
+            localStorage.setItem('highestScore', total);
         }
     };
 
